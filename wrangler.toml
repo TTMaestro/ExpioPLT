@@ -22,5 +22,3 @@ entry-point = "workers-site"
 route = "your-domain.com/*"
 zone_id = "your-zone-id"
 ```
-
-Configure the Cloudflare Workers settings.
