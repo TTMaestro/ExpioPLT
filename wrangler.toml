@@ -6,7 +6,7 @@ workers_dev = true
 [site]
 bucket = "./build"
 entry-point = "workers-site"
-pages_build_output_dir = "public"
+pages_build_output_dir = "./build"  # Убедитесь, что путь указан правильно
 
 [env.production]
 route = "your-domain.com/*"

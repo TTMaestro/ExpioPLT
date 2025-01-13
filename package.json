@@ -1,6 +1,6 @@
 {
   "scripts": {
     "build": "react-scripts build",
-    "deploy": "wrangler publish"
+    "deploy": "npm install && wrangler publish"
   }
 }
