@@ -1,0 +1,12 @@
+name = "expioplt"
+type = "javascript"
+account_id = "your-account-id"
+workers_dev = true
+
+[site]
+bucket = "./build"
+entry-point = "workers-site"
+
+[env.production]
+route = "your-domain.com/*"
+zone_id = "your-zone-id"
